@@ -50,9 +50,9 @@ const Navbar = () => {
             <UserButton/>
           </SignedIn>
           <SignedOut>
-          <div className=''>
-            <Image src="/login.png" alt="" width={20} height={20}/>
-            <Link href="/sing-in">Login/Register</Link>
+          <div className="flex items-center gap-2">
+            <Image src="/home.png"  alt="" width={20} height={20}/>
+            <Link href="/sign-in">Login/Register</Link>
           </div>
           </SignedOut>
         </ClerkLoaded>
